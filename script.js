@@ -32,7 +32,13 @@ function resetForm(val) {
   } else if (val == 'pwd') {
     message = "/cool-humans/engineers/commmunities/TLC"
   } else if (val == 'whoarewe') {
-    message = "We're TLC 💫. An engineering community that invests in the coolest new technologies."
+    message = `We're TLC 💫. An engineering community that invests in the coolest new technologies. Our name comes from our founding members:
+
+T<a target="_blank" href='https://www.linkedin.com/in/tcburning'>erri Burns</a> is a principal at GV, a certified professional coach, and has a BS in computer science. She's into enterprise collab tools, along with tacos and Rihanna, circa 2016.
+
+L<a target="_blank" href='https://www.linkedin.com/in/lstephanian/'>auren Stephanian</a> is a principal at Pantera Capital and has a BS in computer science. She loves all things fintech and beauty.
+
+C<a target="_blank" href='https://www.linkedin.com/in/casey-k-caruso/'>asey Caruso</a> is an engineer at Google, and a part-time investor at Bessemer. She holds her BS in computer engineering and her MS in computer science. She gets excited about artificial intelligence and consiousness. `
   } else if (val == 'whoami') {
     message = "That's deep. This is just another VC website, can't go that deep. But reach out. Terri is a coach and can help you with this."
   } else if (val == 'portfolio') {
