@@ -67,7 +67,6 @@ function showHelpfulGif() {
     gif = result.data.image_url;
     $('.terminal').append('<img class="gif" src="' + gif + '""><br>');
   }).then(function () {
-    console.log('in here!!')
     resetForm('howcanibehelpful')
   })
 }
