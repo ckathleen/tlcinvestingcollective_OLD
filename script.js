@@ -36,9 +36,9 @@ function resetForm(val) {
 
 <a target="_blank" href='https://www.linkedin.com/in/tcburning'>Terri Burns</a> is a principal at GV, a certified professional coach, and has a BS in computer science. She's into enterprise collab tools, along with tacos and Rihanna, circa 2016.
 
-<a target="_blank" href='https://www.linkedin.com/in/lstephanian/'>Lauren Stephanian</a> is a principal at Pantera Capital and has a BS in computer science. She loves all things fintech and beauty.
+<a target="_blank" href='https://www.linkedin.com/in/lstephanian/'>Lauren Stephanian</a> is a principal at Pantera Capital and has a BS in computer science. She loves all things fintech and beauty. Lauren currently is getting certified in penetration testing for fun (yes, seriously). 
 
-<a target="_blank" href='https://www.linkedin.com/in/casey-k-caruso/'>Casey Caruso</a> is an engineer at Google, and a part-time investor at Bessemer. She holds her BS in computer engineering and her MS in computer science. She gets excited about artificial intelligence and consiousness. `
+<a target="_blank" href='https://www.linkedin.com/in/casey-k-caruso/'>Casey Caruso</a> is an engineer at Google, and a part-time investor at Bessemer. She holds her BS in computer engineering and her MS in computer science. She gets excited about artificial intelligence and consiousness, and is currently going back to school to study the brain.`
   } else if (val == 'whoami') {
     message = "That's deep. This is just another VC website, can't go that deep. But reach out. Terri is a coach and can help you with this."
   } else if (val == 'portfolio') {
