@@ -63,7 +63,7 @@ function resetForm(val) {
 }
 
 function showHelpfulGif() {
-  $.get('http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=helpful', function (result) {
+  $.get('https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=helpful', function (result) {
     gif = result.data.image_url;
     $('.terminal').append('<img class="gif" src="' + gif + '""><br>');
   }).then(function () {
